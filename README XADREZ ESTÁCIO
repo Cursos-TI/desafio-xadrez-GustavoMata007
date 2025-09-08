@@ -1,0 +1,20 @@
+# ♟️ Desafio MateCheck - Nível Novato
+
+Este projeto simula a movimentação de peças de xadrez utilizando estruturas de repetição em linguagem C.
+
+## 🔧 Peças Simuladas
+- **Bispo**: 5 movimentos na diagonal superior direita (Cima + Direita)
+- **Torre**: 5 movimentos para a direita
+- **Rainha**: 8 movimentos para a esquerda
+
+## 📌 Requisitos Atendidos
+- Uso de constantes
+- Estruturas de repetição: `for`, `while`, `do-while`
+- Saída clara com `printf`
+- Código documentado e legível
+
+## ▶️ Como executar
+Compile com:
+```bash
+gcc src/xadrez.c -o xadrez
+./xadrez
